@@ -1,17 +1,17 @@
-# RWA Surface Calculator (CRR 575/2013 Art. 153)
-Questo progetto genera un output **interattivo in HTML** della funzione di calcolo del *Risk Weight (RW)*, secondo la formula regolamentare definita nel *CRR 575/2013*, Articolo 153 (pag. 97).
-Moltiplicando il RW per l’*EAD (Exposure At Default)* si ottiene il valore dell’*RWA (Risk-Weighted Assets)*:
+## RWA Surface Calculator (CRR 575/2013 Art. 153)
+This project generates an **interactive HTML output** of the **Risk Weight (RW)** calculation function, based on the regulatory formula defined in **CRR 575/2013**, Article 153 (page 97).
+By multiplying RW by the *EAD (Exposure At Default)*, you obtain the *RWA (Risk-Weighted Assets)*:
 **RWA = RW × EAD**
 
-## Obiettivo
-Mostrare come si comporta il **RW** al variare dei seguenti parametri:
+## Objective
+To illustrate how **RW** behaves as the following parameters vary:
 - **PD** (Probability of Default)
 - **LGD** (Loss Given Default)
-- **M** (Maturity, in anni)
+- **M** (Maturity, in years)
 
-Il risultato è visualizzato in:
-- un *grafico 3D interattivo* (Plotly)
-- con uno *slider* per variare *Maturity* dinamicamente
+The result is displayed in:
+- an *interactive 3D plot* (Plotly)
+- with a *slider* to dynamically adjust *Maturity*
 
-## Riferimenti
-- Regolamento UE n. 575/2013 (CRR) – [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32013R0575)
+## References
+- Regulation (EU) No 575/2013 (CRR) – [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R0575)
