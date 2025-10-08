@@ -1,6 +1,6 @@
 """
 Created on Mon Oct  6 12:15:18 2025
-@author: HO31153
+@author: Marco Contucci
 """
 import numpy as np
 import pandas as pd
@@ -174,3 +174,4 @@ full_html = f"""
 with open("RW_surface.html", "w", encoding="utf-8") as f:
     f.write(full_html)
     
+
